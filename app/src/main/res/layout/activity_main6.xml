@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choose your chapter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#366E70"
+        android:textColorHighlight="#FFFFFF" />
+
+
+    <ListView
+        android:id="@+id/Lessons"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ensi22"
+        android:textStyle="bold" />
+
+</LinearLayout>

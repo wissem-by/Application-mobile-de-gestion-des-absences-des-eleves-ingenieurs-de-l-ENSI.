@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ensi2"
+    tools:context=".MainActivity2">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="398dp"
+        android:layout_height="381dp"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:onClick="classe_a"
+                android:text="@string/ii1a" />
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#CFCFCF"
+                android:onClick="classe_b"
+                android:text="@string/ii1b" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="classe_c"
+                android:text="@string/ii1c" />
+
+            <Button
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="classe_d"
+                android:text="@string/ii1d" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="376dp"
+            android:layout_height="121dp"
+            android:background="@android:color/transparent"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="classe_e"
+                android:text="@string/ii1e" />
+
+            <Button
+                android:id="@+id/f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="classe_f"
+                android:text="@string/ii1f" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="386dp"
+            android:layout_height="78dp"
+            android:background="@android:color/transparent"
+            android:padding="5dp"/>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#B2DFDB"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
